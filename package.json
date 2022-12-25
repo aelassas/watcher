@@ -1,0 +1,14 @@
+{
+  "name": "watcher",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Monitor for any changes in your Node.js application and automatically restart the server",
+  "scripts": {
+    "start": "node watcher.js server.js"
+  },
+  "author": "Akram El Assas",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.17"
+  }
+}
