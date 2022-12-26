@@ -4,5 +4,5 @@ Monitor for any changes in your Node.js application and automatically restart th
 # Run
 ```
 npm install
-npm start
+npm run dev
 ```
