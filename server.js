@@ -8,4 +8,4 @@ createServer((_, res) => {
     res.end()
 }).listen(PORT)
 
-console.log(`Node.js web server at port ${PORT} is running...`)
+console.log('HTTP server is running on Port', PORT)

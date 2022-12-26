@@ -21,7 +21,10 @@ const spawnNode = () => {
 let childProcess = spawnNode()
 const watcher = watch(dirname(file), { recursive: true })
 for await (const event of watcher) {
-    if (event.filename.endsWith('.js')) {
+    if (
+        !event.filename.includes('node_modules') &&
+        event.filename.endsWith('.js')
+    ) {
         childProcess.kill('SIGKILL')
         childProcess = spawnNode()
     }
