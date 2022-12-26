@@ -8,7 +8,6 @@
     "dev": "node watcher.js server.js"
   },
   "author": "Akram El Assas",
-  "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.11.17"
   }
